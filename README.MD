@@ -15,9 +15,10 @@ Download the repository zip file and unzip it or download the repository using g
       git clone https://github.com/roccofab/Flappy_Bird
 
 ## Running:
-1. **Method 1:** Open your terminal and go to the folder Flappy_Bird\out\artifacts\Flappy_Bird_jar that contains the Flappy_Bird.jar file then run the jar file by typing:
+1. **Method 1:** Open your terminal and go to the folder **Flappy_Bird\out\artifacts\Flappy_Bird_jar** that contains the Flappy_Bird.jar file then run the jar file by typing:
+ 
          java -jar "Flappy_Bird.jar"
-2. **Method 2:**  Go to the folder Flappy_Bird\out\artifacts\Flappy_Bird_jar and copy the Flappy_Bird.jar file then paste it wherever you want and double-click on it to run the program. 
+2. **Method 2:**  Go to the folder **Flappy_Bird\out\artifacts\Flappy_Bird_jar** and copy the Flappy_Bird.jar file then paste it wherever you want and double-click on it to run the program. 
 ## Source code details:
 - **draw():** draw the panel 60 times every millisecond, draw the bird and draw the pipe every 1500 milliseconds.
 - **paintComponent():** call the method paintChildren to ensure that the panel's child components are drawn correctly and call the method draw to draw custom elements on the panel.
@@ -27,5 +28,5 @@ Download the repository zip file and unzip it or download the repository using g
 
 ## Application Preview:
 <p align="left">
-<img src = "C:\\Users\\lenovo\\Documents\\Flappy_Bird\\src\\resources\\Screenshot 2025-03-27 001514.png" width="80%">
+<img src = "src\\resources\\Screenshot 2025-03-27 001514.png" width="80%">
 </p>
